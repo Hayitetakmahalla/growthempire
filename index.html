@@ -1,10 +1,12 @@
 
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GrowthEmpire Ultra AI Agency</title>
+<title>GrowthEmpire Premium</title>
 
 <style>
 *{
@@ -12,7 +14,6 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:Arial, sans-serif;
-scroll-behavior:smooth;
 }
 
 body{
@@ -22,23 +23,22 @@ overflow-x:hidden;
 }
 
 header{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-padding:20px 8%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-background:rgba(0,0,0,0.7);
-backdrop-filter:blur(10px);
+padding:25px 8%;
+background:rgba(0,0,0,0.85);
+position:fixed;
+top:0;
+width:100%;
 z-index:999;
+backdrop-filter:blur(8px);
 }
 
 .logo{
 font-size:28px;
 font-weight:900;
-color:#00ffd5;
+color:#00f0ff;
 }
 
 nav a{
@@ -50,7 +50,7 @@ transition:.3s;
 }
 
 nav a:hover{
-color:#00ffd5;
+color:#00f0ff;
 }
 
 .hero{
@@ -60,41 +60,41 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:0 10%;
-background:linear-gradient(135deg,#000,#001d1d,#000);
+background:radial-gradient(circle at center,#111,#000);
 }
 
 .hero h1{
 font-size:65px;
 line-height:1.1;
 margin-bottom:20px;
-}
-
-.hero span{
-color:#00ffd5;
+background:linear-gradient(90deg,#00f0ff,#7c3aed);
+-webkit-background-clip:text;
+color:transparent;
 }
 
 .hero p{
-font-size:20px;
-max-width:700px;
+font-size:22px;
+max-width:750px;
 margin:auto;
 color:#ccc;
+line-height:1.6;
 }
 
 .btn{
 display:inline-block;
 margin-top:30px;
 padding:16px 35px;
-background:#00ffd5;
-color:#000;
-font-weight:800;
 border-radius:50px;
+background:linear-gradient(90deg,#00f0ff,#7c3aed);
+color:white;
 text-decoration:none;
+font-weight:800;
 transition:.3s;
 }
 
 .btn:hover{
 transform:scale(1.07);
-box-shadow:0 0 30px #00ffd5;
+box-shadow:0 0 25px #00f0ff;
 }
 
 section{
@@ -102,35 +102,35 @@ padding:100px 8%;
 }
 
 .title{
-font-size:45px;
+font-size:46px;
 text-align:center;
-margin-bottom:60px;
+margin-bottom:55px;
 }
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
 }
 
 .card{
 background:#111;
 padding:30px;
 border-radius:20px;
+border:1px solid #1e1e1e;
 transition:.4s;
-border:1px solid #222;
 }
 
 .card:hover{
 transform:translateY(-10px);
-border-color:#00ffd5;
-box-shadow:0 0 25px rgba(0,255,213,0.25);
+border-color:#00f0ff;
+box-shadow:0 0 20px rgba(0,240,255,0.25);
 }
 
 .card h3{
-font-size:25px;
+font-size:24px;
 margin-bottom:15px;
-color:#00ffd5;
+color:#00f0ff;
 }
 
 .card p{
@@ -141,7 +141,7 @@ line-height:1.7;
 .stats{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:25px;
+gap:20px;
 text-align:center;
 }
 
@@ -153,32 +153,28 @@ border-radius:20px;
 
 .stat h2{
 font-size:48px;
-color:#00ffd5;
+color:#00f0ff;
+margin-bottom:10px;
 }
 
 .cta{
 text-align:center;
-background:linear-gradient(135deg,#001818,#000);
+background:linear-gradient(135deg,#0b0b0b,#000);
 padding:100px 8%;
 }
 
 footer{
 text-align:center;
 padding:30px;
-background:#000;
 color:#777;
+background:#000;
 }
 
 @media(max-width:768px){
-.hero h1{
-font-size:42px;
-}
-.title{
-font-size:34px;
-}
-nav{
-display:none;
-}
+.hero h1{font-size:42px;}
+.hero p{font-size:18px;}
+.title{font-size:34px;}
+nav{display:none;}
 }
 </style>
 </head>
@@ -188,81 +184,98 @@ display:none;
 <header>
 <div class="logo">GrowthEmpire</div>
 <nav>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#stats">Stats</a>
-<a href="#contact">Contact</a>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
 </nav>
 </header>
 
 <section class="hero">
 <div>
-<h1>Build Your <span>AI Empire</span><br>Scale In America</h1>
-<p>Premium USA AI Agency Website. We create websites, automation systems, marketing funnels, branding, YouTube growth, client generation and powerful online income systems.</p>
-<a href="#services" class="btn">Start Now</a>
+<h1>Build Your Premium AI Empire</h1>
+<p>GrowthEmpire helps businesses grow with AI automation, websites, marketing systems and premium startup strategies built for USA-level success.</p>
+<a href="#" class="btn">Get Started</a>
 </div>
 </section>
 
-<section id="services">
-<h2 class="title">20 Premium Services</h2>
+<section>
+<h2 class="title">Premium Services</h2>
 
 <div class="grid">
 
-<div class="card"><h3>AI Websites</h3><p>Luxury business websites with speed and modern design.</p></div>
+<div class="card">
+<h3>AI Websites</h3>
+<p>Luxury fast-loading business websites that convert visitors into paying clients.</p>
+</div>
 
-<div class="card"><h3>Automation</h3><p>Auto reply bots, CRM systems and lead systems.</p></div>
+<div class="card">
+<h3>Automation</h3>
+<p>CRM, chatbots, lead systems and auto business workflows.</p>
+</div>
 
-<div class="card"><h3>YouTube Growth</h3><p>USA monetization strategy and viral systems.</p></div>
+<div class="card">
+<h3>Marketing</h3>
+<p>Google Ads, Facebook Ads, TikTok growth and customer acquisition.</p>
+</div>
 
-<div class="card"><h3>SEO Ranking</h3><p>Google search top ranking methods.</p></div>
+<div class="card">
+<h3>SEO Ranking</h3>
+<p>Rank on Google and dominate your niche online.</p>
+</div>
 
-<div class="card"><h3>Ads Marketing</h3><p>Facebook, TikTok, Google premium ads.</p></div>
+<div class="card">
+<h3>YouTube Growth</h3>
+<p>USA monetization strategy, viral shorts and content systems.</p>
+</div>
 
-<div class="card"><h3>Funnels</h3><p>Landing pages that convert visitors into clients.</p></div>
-
-<div class="card"><h3>Branding</h3><p>Logo, premium identity and trust building.</p></div>
-
-<div class="card"><h3>Ecommerce</h3><p>Online stores with high conversion systems.</p></div>
-
-<div class="card"><h3>Copywriting</h3><p>Sales text that sells fast.</p></div>
-
-<div class="card"><h3>Consulting</h3><p>USA market strategy consulting.</p></div>
+<div class="card">
+<h3>Branding</h3>
+<p>Premium identity, trust and millionaire company positioning.</p>
+</div>
 
 </div>
 </section>
 
-<section id="about">
-<h2 class="title">Why GrowthEmpire?</h2>
-
-<div class="grid">
-<div class="card"><h3>Luxury Design</h3><p>Modern premium dark style.</p></div>
-<div class="card"><h3>Fast Loading</h3><p>Ultra optimized speed for mobile and desktop.</p></div>
-<div class="card"><h3>Client Focus</h3><p>Built to attract high-paying customers.</p></div>
-</div>
-</section>
-
-<section id="stats">
+<section>
 <h2 class="title">Results</h2>
 
 <div class="stats">
-<div class="stat"><h2>500+</h2><p>Projects</p></div>
-<div class="stat"><h2>97%</h2><p>Success Rate</p></div>
-<div class="stat"><h2>24/7</h2><p>Support</p></div>
-<div class="stat"><h2>$2M+</h2><p>Revenue Built</p></div>
+
+<div class="stat">
+<h2>500+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat">
+<h2>97%</h2>
+<p>Success Rate</p>
+</div>
+
+<div class="stat">
+<h2>$2M+</h2>
+<p>Revenue Built</p>
+</div>
+
+<div class="stat">
+<h2>24/7</h2>
+<p>Support</p>
+</div>
+
 </div>
 </section>
 
-<section class="cta" id="contact">
-<h2 class="title">Ready To Grow?</h2>
-<p style="font-size:20px;color:#bbb;margin-top:15px;">Launch your premium online business today.</p>
+<section class="cta">
+<h2 class="title">Ready To Scale?</h2>
+<p style="font-size:20px;color:#bbb;margin-top:15px;">Launch your premium startup presence today.</p>
 <a href="#" class="btn">Contact Now</a>
 </section>
 
 <footer>
-© 2026 GrowthEmpire | Premium USA Business Platform
+© 2026 GrowthEmpire | Premium AI Business Platform
 </footer>
 
 </body>
 </html>
-
+```
 
