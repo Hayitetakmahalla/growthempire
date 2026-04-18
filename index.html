@@ -4,64 +4,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GrowthEmpire</title>
+<title>GrowthEmpire Ultra</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{
 font-family:Arial,Helvetica,sans-serif;
-background:#000;
+background:radial-gradient(circle at top right,#222,#000 45%);
 color:#fff;
-padding:30px;
+padding:25px;
+overflow-x:hidden;
 }
-.wrap{
-max-width:1100px;
-margin:auto;
-}
+.wrap{max-width:1200px;margin:auto}
 .hero{
-background:linear-gradient(135deg,#111,#1a1a1a,#000);
+padding:70px 30px;
+border-radius:30px;
+background:linear-gradient(135deg,#0f0f0f,#181818,#000);
 border:1px solid #333;
-border-radius:28px;
-padding:60px 30px;
+box-shadow:0 0 60px rgba(255,215,0,.08);
 text-align:center;
-box-shadow:0 0 40px rgba(255,215,0,.08);
+animation:fade 1.2s ease;
+}
+@keyframes fade{
+from{opacity:0;transform:translateY(25px)}
+to{opacity:1;transform:translateY(0)}
 }
 .tag{
-color:#f5d06f;
-letter-spacing:4px;
-font-size:13px;
+color:#f3d37a;
+letter-spacing:5px;
+font-size:12px;
 text-transform:uppercase;
 margin-bottom:18px;
 }
 h1{
-font-size:58px;
-line-height:1.1;
-margin-bottom:18px;
+font-size:72px;
+line-height:1.05;
+margin-bottom:16px;
 }
 .sub{
+font-size:23px;
 color:#bbb;
-font-size:22px;
-max-width:760px;
+max-width:820px;
 margin:auto;
 }
-.btns{
-margin-top:30px;
-}
+.btns{margin-top:32px}
 .btn{
 display:inline-block;
-padding:15px 28px;
+padding:16px 30px;
 margin:8px;
 border-radius:14px;
-text-decoration:none;
 font-weight:bold;
+text-decoration:none;
+transition:.25s;
 }
-.gold{
-background:#f5d06f;
-color:#000;
-}
-.dark{
-border:1px solid #555;
-color:#fff;
-}
+.gold{background:#f3d37a;color:#000}
+.dark{border:1px solid #555;color:#fff}
+.btn:hover{transform:translateY(-3px)}
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -69,40 +66,45 @@ gap:18px;
 margin-top:35px;
 }
 .card{
-background:#111;
-border:1px solid #2c2c2c;
+background:#101010;
+border:1px solid #272727;
 padding:24px;
 border-radius:22px;
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-6px);
+border-color:#f3d37a;
 }
 .card h3{
-font-size:28px;
+font-size:34px;
+color:#f3d37a;
 margin-bottom:8px;
-color:#f5d06f;
 }
 .section{
-margin-top:35px;
-background:#0d0d0d;
-padding:35px;
-border-radius:24px;
+margin-top:28px;
+padding:34px;
+border-radius:26px;
+background:#0c0c0c;
 border:1px solid #222;
 }
 .section h2{
-font-size:38px;
-margin-bottom:15px;
+font-size:40px;
+margin-bottom:12px;
 }
-ul{
-margin-top:10px;
-padding-left:20px;
-color:#ccc;
+.section p,.section li{
+color:#c7c7c7;
 line-height:1.8;
+font-size:18px;
 }
+ul{padding-left:22px;margin-top:10px}
 .footer{
 text-align:center;
-margin-top:30px;
+margin:28px 0;
 color:#777;
 }
-@media(max-width:700px){
-h1{font-size:42px}
+@media(max-width:768px){
+h1{font-size:48px}
 .sub{font-size:18px}
 }
 </style>
@@ -111,48 +113,55 @@ h1{font-size:42px}
 <div class="wrap">
 
 <div class="hero">
-<div class="tag">Premium Startup Asset</div>
+<div class="tag">Acquire Ready Billionaire Asset</div>
 <h1>GrowthEmpire</h1>
-<p class="sub">Acquire-ready USA business growth brand designed for agencies, founders and operators seeking a scalable digital asset.</p>
+<p class="sub">Elite USA-focused digital growth brand built for founders, investors and operators who want a scalable premium online asset.</p>
 
 <div class="btns">
-<a href="#" class="btn gold">Buy Now</a>
-<a href="#" class="btn dark">View Details</a>
+<a href="#" class="btn gold">Buy GrowthEmpire</a>
+<a href="#" class="btn dark">Investor Deck</a>
 </div>
 
 <div class="grid">
-<div class="card"><h3>$4,999</h3><p>Asking Price</p></div>
-<div class="card"><h3>USA</h3><p>Target Market</p></div>
-<div class="card"><h3>Scale</h3><p>Ready to Grow</p></div>
-<div class="card"><h3>24/7</h3><p>Online Asset</p></div>
+<div class="card"><h3>$9,999</h3><p>Premium Asking Price</p></div>
+<div class="card"><h3>USA</h3><p>High Value Market</p></div>
+<div class="card"><h3>24/7</h3><p>Digital Revenue Asset</p></div>
+<div class="card"><h3>Scale</h3><p>Unlimited Growth</p></div>
 </div>
 </div>
 
 <div class="section">
-<h2>Why Buy GrowthEmpire?</h2>
+<h2>Why This Asset Wins</h2>
 <ul>
-<li>Premium brand for profitable US market</li>
-<li>Can expand into agency, SaaS or marketplace</li>
-<li>Ready for traffic, ads and lead generation</li>
-<li>Strong resale and growth potential</li>
+<li>Premium brand identity with resale potential</li>
+<li>Can convert into agency, SaaS, marketplace or media brand</li>
+<li>Strong trust-based luxury design</li>
+<li>Ready for traffic, leads and investor offers</li>
 </ul>
 </div>
 
+<div class="grid">
+<div class="card"><h3>$25k+</h3><p>Projected Annual Potential</p></div>
+<div class="card"><h3>10x</h3><p>Expansion Opportunity</p></div>
+<div class="card"><h3>Elite</h3><p>Luxury Positioning</p></div>
+</div>
+
 <div class="section">
-<h2>Revenue Potential</h2>
+<h2>Revenue Streams</h2>
 <ul>
-<li>Monthly retainers</li>
-<li>Lead generation fees</li>
+<li>Lead generation retainers</li>
+<li>Consulting packages</li>
 <li>Subscriptions</li>
-<li>Digital services marketplace</li>
+<li>Acquisition flip value</li>
 </ul>
 </div>
 
 <div class="footer">
-GrowthEmpire © 2026
+GrowthEmpire Ultra © 2026
 </div>
 
 </div>
 </body>
 </html>
+
 
